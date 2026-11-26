@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: ppxlib
   version: "0.39.0"
-  build_number: 2
+  build_number: 3
 
   # ocaml_win-64 ships gcc_* and vs_* at the same version/build; name the track.
   c_toolchain: ${{ "" if unix else c_compiler ~ "_*" }}
